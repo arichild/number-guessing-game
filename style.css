@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;600&display=swap');
+
+html {
+  font-family: 'Comfortaa', cursive;
+}
+
+body {
+  width: 50%;
+  max-width: 800px;
+  min-width: 480px;
+  margin: 50px auto;
+  background-color: #577590;
+  color: #fff;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  width: 230px;
+}
+
+.form .guessField{
+  outline: none;
+  border: 2px solid #f9c74f;
+  background: #577590;
+  padding: 8px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  text-align: center;
+  font-size: 18px;
+  color: #f9c74f;
+  font-weight: 600;
+  border-radius: 5px;
+}
+
+.resultParas {
+  margin-top: 50px;
+}
+
+.guessSubmit {
+  border: none;
+  background: #f9c74f;
+  color: #577590;
+  padding: 8px;
+  font-size: 15px;
+  font-weight: 600;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.lastResult {
+  color: rgb(94, 83, 83);
+  padding: 10px;
+  font-weight: 600;
+}
+
+.guesses{
+  font-weight: 600;
+}
+
+button {
+  border: none;
+  background: #90be6d;
+  color: #fff;
+  padding: 8px;
+  font-size: 15px;
+  font-weight: 600;
+  cursor: pointer;
+  border-radius: 5px;
+}
